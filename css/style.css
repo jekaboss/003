@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "NunitoSans-Bold" sans-serif ;
+    src: 
+         url("/fonts/NunitoSans-Bold.ttf");
+  }
+ul
+{
+list-style: none; 
+margin: 0; 
+padding-left: 0; 
+height: 50px; 
+}
+.menubrand
+{
+font-family:'Nunito Sans', sans-serif ;
+font-size: 28px;
+}
+li a
+{
+text-decoration: none;
+background: #1d1f81;
+color: #fff;
+padding: 0px 13.28px 0 10.7px;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 26px;
+line-height:50px;
+display: block;
+}
+a:hover
+{
+background: #6858c2;
+}
+li
+{
+float: left;
+position: relative;
+}
+footer{
+    text-align: center; 
+    margin-left: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background: #c2d4d4; 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #020327;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+  margin: 0 auto;
+}
+
+section:nth-child(odd){
+    background: rgba(167, 164, 235, 0.699);
+}
+section:nth-child(even){
+    background: rgba(134, 130, 225, 0.699);
+}
+nav{
+    position: sticky;
+    text-align: center;
+    background: #1d1f81;
+    bottom: 0;
+    /* width: 1200px; */
+    min-height: 2em;
+}
+nav a{
+    position: relative;
+    color: rgb(242, 245, 248);
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav a:hover,
+section#n1:hover~nav a[href="#n1"],
+section#n2:hover~nav a[href="#n2"],
+section#n3:hover~nav a[href="#n3"],
+section#n4:hover~nav a[href="#n4"],
+section#n5:hover~nav a[href="#n5"]
+{
+    background: rgba(71, 68, 228, 0.699);
+    color:#fff;
+}
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#left{
+width: 500px;
+height:500px;
+float: left;
+text-align: center;
+margin-top: 200px;
+}
+#center{
+width: 500px;
+height: 500px;
+float: left;
+margin-top: 200px;
+}
+#right{
+width: 500px;
+height: 500px;
+Float: left;
+margin-top: 200px;
+}
+.forma{
+    border-radius: 40px;
+    border:9px #200766  ridge; width: 850px; padding: 5px 5px 20px 5px; text-align: center; margin:20px 20px 20px 170px; background: rgba(198, 235, 247, 0.795);
+}
+.text1{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.text3{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -170px;
+}
+.logo{
+    margin-right: 900px;
+    margin-top: 35px;
+}
+
+footer{
+    margin-left: 0px;
+    background: #c2d4d4; 
+}
+.footer{
+  max-width: 1200px;
+}
+.text5{
+    text-align: center;
+}
+.pens{
+    border-radius: 20px;
+    border:9px #200766  groove; width: 850px; padding: 5px 5px 20px 5px; text-align: center; margin:20px 20px 20px 170px; background: rgba(198, 235, 247, 0.795);
+}
+.post{
+    border-radius: 20px;
+    border:9px #200766  groove; width: 850px; padding: 5px 5px 20px 5px; text-align: center; margin:20px 20px 20px 170px; background: rgba(198, 235, 247, 0.795);
+}
+.loyal{
+    border-radius: 20px;
+    border:9px #200766  groove; width: 850px; padding: 5px 5px 20px 5px; text-align: center; margin:20px 20px 20px 170px; background: rgba(198, 235, 247, 0.795);
+}
+.text6{
+    text-align: center;
+}
+.img2{
+    border: 30px #200766  groove; width: 860px; height: 1060px; text-align: center; margin:20px 20px 20px 170px;
+}
+.img3{
+    border: 30px #200766  groove; width: 860px; height: 1060px; text-align: center; margin:20px 20px 20px 170px;
+}
+.img4{
+    margin-left: 40px;
+}
+.img5{
+    border-radius: 10px;
+    border: 9px #c2d4d4 solid ; width: 925px; height: 618px; text-align: center;    
+} 
+.ramka1{
+    margin-top: 170px;
+    max-width: 230px;  
+    margin-right: 80px; 
+    border-radius: 20px;
+    border:5px #200766  solid; width: 270px; height: 470px; padding: 5px 5px 20px 5px; text-align: center;background: rgba(198, 235, 247, 0.795);
+   }
+.ramka2{
+ margin-top: 170px;
+ width: 340px;  
+ margin-right: 85px;  
+ border-radius: 20px;
+ border:5px #200766  solid; width: 340px; height: 470px; padding: 5px 5px 20px 5px; text-align: center;background: rgba(179, 225, 241, 0.795);
+}
+.ramka3{
+    margin-top: 170px;
+    max-width: 230px; 
+    margin-right: 30px;
+    border-radius: 20px;
+    border:5px #200766  solid; width: 270px; height: 470px; padding: 5px 5px 20px 5px; text-align: center;background: rgba(198, 235, 247, 0.795);
+   }
+.text7{
+    text-align: center;
+    margin-top: 70px;
+    width: 450px;
+    margin-left: 460px;
+    margin-right: 100px;
+    
+}
+.text8{
+    text-align: center;
+    margin-top: 70px;
+    width: 550px;
+   margin-right: -500px;
+
+}
+.img6{
+    margin-left: -600px;
+    margin-top: 30px;
+}
+
+.text9{
+    text-align: center;
+    margin-top: 150px;
+    width: 500px; 
+}
+.text10{
+    text-align: center;
+    margin-top: 150px;
+    width: 500px;
+    margin-left: -650px; 
+}
+textarea{
+ resize: none;   
+}
+.text11{
+    text-align: center;
+}
+.text12{
+    text-align: center;
+    margin-top: 50px; 
+    font-size: 20px;
+}
+table {
+    border: 1px solid #020327;
+    text-align: center;
+ }
+ th {
+    border: 1px solid #020327;
+ }
+ td {
+    border: 1px solid #020327;
+ }
+.table{
+    margin-left: 270px;  
+}
+.text13{
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.vk{
+    margin-left: 1000px;
+    margin-top: -180px;
+}
+.text14{
+    margin-top: -150px;
+}
+.text14 h2{
+  margin: 150 -100px 23px -100px;
+}
+
+.text15{
+    margin-right: 20px;
+}
+.text16{
+    margin-top: 10px;
+    text-align: center;
+margin-right: -1050px;
+}
+.text17{
+    margin-top: 10px;
+    text-align: center;
+margin-right: 660px;
+}
